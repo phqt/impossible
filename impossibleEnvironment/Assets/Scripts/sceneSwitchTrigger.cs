@@ -8,6 +8,7 @@ public class sceneSwitchTrigger : MonoBehaviour
 
     public Animator transition;
 
+
     public float transitionTime = 1f;
 
     private void OnTriggerEnter(Collider other)
