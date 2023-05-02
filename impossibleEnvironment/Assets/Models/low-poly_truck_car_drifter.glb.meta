@@ -1,0 +1,67 @@
+fileFormatVersion: 2
+guid: 444ae5e65350843f8a0bd3bf1b51e1ad
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 8c346b1fb85434b30aae6bded1a45633, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brown
+    second: {fileID: 2100000, guid: 08e98efdb6e644cc2940f25a75145483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_brown
+    second: {fileID: 2100000, guid: fcd0254d5ca2e433a99a4ae81dc92ff7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dark_brown_handle
+    second: {fileID: 2100000, guid: 93fb8fbd99af341e79625f1bf3f31366, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 5f92e3bcaaf9f443a977d5fc948d99b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_trailer
+    second: {fileID: 2100000, guid: cac9930ac9d854910876dd21b3d8a83d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 857c142f1577941bc86ab38982ad6a29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_black
+    second: {fileID: 2100000, guid: cf1dedec3bfd74a0ba78201e327986e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_red
+    second: {fileID: 2100000, guid: 1df41d51eda044fdca44c67969cbb170, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Orange
+    second: {fileID: 2100000, guid: 6a11cda23140e423fb4ff7bbf452dfa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Smoke
+    second: {fileID: 2100000, guid: 567a8a9bfd06e4bce85b583b4bdad266, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
