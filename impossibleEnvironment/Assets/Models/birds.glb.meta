@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 03db83887dab44203a8f18eacb8e0155
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Scene
+    second: {fileID: 7400000, guid: db0b9be79f42a4b92b6b45857d4443f5, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0
