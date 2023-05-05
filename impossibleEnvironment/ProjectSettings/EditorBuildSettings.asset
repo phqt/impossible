@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/downRoom.unity
     guid: 2a99e176cb73f4cfa8c62bcc8a3d4b38
+  - enabled: 1
+    path: Assets/Scenes/greyRoom.unity
+    guid: b8bcd594b66c041e0ab2d9e7576f744b
   m_configObjects: {}
