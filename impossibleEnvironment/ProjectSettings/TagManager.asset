@@ -6,6 +6,7 @@ TagManager:
   tags:
   - drag
   - PuzzlePiece
+  - Red Door
   layers:
   - Default
   - TransparentFX
