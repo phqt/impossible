@@ -18,7 +18,7 @@ public class triggerDoorOpen : MonoBehaviour
     {
         if(other.CompareTag("Player")&&(Input.GetKeyDown(KeyCode.E)))
         {
-            triggerDoor.SetTrigger("DoorOpen");
+            triggerDoor.SetTrigger("Door Open");
             animDoor = true;
         }
     }
