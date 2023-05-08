@@ -12,7 +12,7 @@ public class DoorScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        _animator = transform.FindChild("Door").GetComponent<Animator>();
+        _animator = transform.Find("Door").GetComponent<Animator>();
 	}
 
     void OnTriggerEnter(Collider other)
