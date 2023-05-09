@@ -18495,6 +18495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 624321032}
   - component: {fileID: 624321031}
+  - component: {fileID: 624321033}
   m_Layer: 0
   m_Name: Spot Light (1)
   m_TagString: Untagged
@@ -18579,6 +18580,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: -120.018, z: 0}
+--- !u!114 &624321033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624321030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0648a4bbe237b47dba3c4658dab67a8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 624321031}
+  minIntensity: 0.5
+  maxIntensity: 2
+  smoothing: 50
 --- !u!1 &668448469
 GameObject:
   m_ObjectHideFlags: 0
@@ -29672,7 +29689,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh41198
+  m_Name: pb_Mesh63944
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30000,7 +30017,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh41074
+  m_Name: pb_Mesh63572
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

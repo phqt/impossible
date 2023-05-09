@@ -10,6 +10,9 @@ public class downRoomSwitch : MonoBehaviour
     // The duration of the delay in seconds
     public float delayDuration = 15f;
 
+    public GameObject camOne;
+    public GameObject camTwo;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,8 @@ public class downRoomSwitch : MonoBehaviour
         yield return new WaitForSeconds(delayDuration);
 
         // Load the next scene
-        SceneManager.LoadScene(0);
+        //SceneManager.LoadScene(0);
+        camOne.SetActive(false);
+        camTwo.SetActive(true);
     }
 }
