@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/greyRoom.unity
     guid: b8bcd594b66c041e0ab2d9e7576f744b
+  - enabled: 1
+    path: Assets/Scenes/Basketball.unity
+    guid: 1aa57d7e6360d494aa06473881f1cd31
   m_configObjects: {}

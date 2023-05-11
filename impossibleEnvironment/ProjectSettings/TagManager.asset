@@ -7,6 +7,7 @@ TagManager:
   - drag
   - PuzzlePiece
   - Red Door
+  - Pickup
   layers:
   - Default
   - TransparentFX
