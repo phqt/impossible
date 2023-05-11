@@ -62,7 +62,7 @@ public class FishMove : MonoBehaviour
         hookPullVelocity -= hookGravityPower * Time.deltaTime;
 
         hookPosition += hookPullVelocity;
-        hookPosition = Mathf.Clamp(hookPosition, 0, 1);
+        hookPosition = Mathf.Clamp(hookPosition, hookSize /2, 1 - hookSize/2);
         hook.position = Vector3.Lerp(bottomPivot.position, topPivot.position, hookPosition);
     }
     void Fish()
