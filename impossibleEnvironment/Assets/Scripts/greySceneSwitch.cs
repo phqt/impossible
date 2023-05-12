@@ -7,16 +7,15 @@ public class greySceneSwitch : MonoBehaviour
 {
 
     // The tag of the GameObjects that can trigger the scene switch
-    public string triggerTag = "Player";
+    //public string triggerTag = "Player";
 
     // Called when a GameObject enters the trigger
     void OnTriggerEnter(Collider other)
     {
         // Check if the GameObject has the specified tag
-        if (other.CompareTag(triggerTag))
-        {
+        //if (other.CompareTag(triggerTag))
+        //{
             // Load the next scene
             SceneManager.LoadScene(2);
         }
     }
-}
