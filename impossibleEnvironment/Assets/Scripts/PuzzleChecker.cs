@@ -9,6 +9,7 @@ public class PuzzleChecker : MonoBehaviour
     public GameObject playerPost;
     public GameObject warningTape;
     public GameObject tapeBox;
+    public GameObject clothesTwo;
     void Update()
     {
         bool allPiecesInBounds = true;
@@ -32,6 +33,7 @@ public class PuzzleChecker : MonoBehaviour
             playerPost.SetActive(true);
             warningTape.SetActive(true);
             tapeBox.SetActive(true);
+            clothesTwo.SetActive(true);
         }
     }
 }
