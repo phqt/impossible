@@ -4,7 +4,11 @@ public class PuzzleChecker : MonoBehaviour
 {
     public GameObject puzzlePiecesParent;
     public BoxCollider puzzleBounds;
-
+    public GameObject playerAfterBent;
+    public GameObject bentItself;
+    public GameObject playerPost;
+    public GameObject warningTape;
+    public GameObject tapeBox;
     void Update()
     {
         bool allPiecesInBounds = true;
@@ -23,6 +27,11 @@ public class PuzzleChecker : MonoBehaviour
         if (allPiecesInBounds)
         {
             Debug.Log("Puzzle done!");
+            playerAfterBent.SetActive(true);
+            bentItself.SetActive(false);
+            playerPost.SetActive(true);
+            warningTape.SetActive(true);
+            tapeBox.SetActive(true);
         }
     }
 }
