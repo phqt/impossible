@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.08268421, g: 0.13432997, b: 0.2419196, a: 1}
+  m_IndirectSpecularColor: {r: 0.08268421, g: 0.13432996, b: 0.2419196, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -31542,7 +31542,6 @@ GameObject:
   - component: {fileID: 1974922940}
   - component: {fileID: 1974922939}
   - component: {fileID: 1974922938}
-  - component: {fileID: 1974922942}
   - component: {fileID: 1974922943}
   m_Layer: 0
   m_Name: arcade trigger
@@ -31629,20 +31628,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1974922942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974922937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8f382890687f451eb7f0a4268a7255e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transition: {fileID: 0}
-  transitionTime: 1
 --- !u!114 &1974922943
 MonoBehaviour:
   m_ObjectHideFlags: 0
