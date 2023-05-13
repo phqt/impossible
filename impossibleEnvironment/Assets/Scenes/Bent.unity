@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731689, g: 0.13414702, b: 0.1210784, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -155,6 +155,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzzlePiecesParent: {fileID: 0}
   puzzleBounds: {fileID: 0}
+  playerAfterBent: {fileID: 0}
+  bentItself: {fileID: 0}
+  playerPost: {fileID: 0}
+  warningTape: {fileID: 0}
+  tapeBox: {fileID: 0}
+  clothesTwo: {fileID: 0}
 --- !u!65 &44652448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -560,8 +566,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.4616995, y: 2.5859315, z: 1.6882381}
+  m_Center: {x: -0.73084974, y: 1.8422645, z: 0.6765096}
 --- !u!1 &323418423
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,8 +722,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.679399, y: 1.1441056, z: 3.0474644}
+  m_Center: {x: 0.3310554, y: 0.53574306, z: 0.6816664}
 --- !u!1 &380385382
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +779,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh61444
+  m_Name: pb_Mesh54128
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1548,6 +1554,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzzlePiecesParent: {fileID: 873588373}
   puzzleBounds: {fileID: 873588374}
+  playerAfterBent: {fileID: 0}
+  bentItself: {fileID: 0}
+  playerPost: {fileID: 0}
+  warningTape: {fileID: 0}
+  tapeBox: {fileID: 0}
+  clothesTwo: {fileID: 0}
 --- !u!4 &873588376
 Transform:
   m_ObjectHideFlags: 0
@@ -1717,8 +1729,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.4835081, y: 1, z: 2.239602}
+  m_Center: {x: 0.54661226, y: 0, z: -0.61980104}
 --- !u!1 &1386273404 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5930517272935211969, guid: 7788bf33144be4360a30a5d1959fc39f, type: 3}
@@ -33178,8 +33190,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.9227989, y: 0.866789, z: 1.4057865}
+  m_Center: {x: 0.23545563, y: 0.9101723, z: 0.5296335}
 --- !u!1 &1715315009
 GameObject:
   m_ObjectHideFlags: 0
