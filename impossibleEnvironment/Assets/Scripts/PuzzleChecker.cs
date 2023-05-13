@@ -10,6 +10,7 @@ public class PuzzleChecker : MonoBehaviour
     public GameObject warningTape;
     public GameObject tapeBox;
     public GameObject clothesTwo;
+    public GameObject RedDoorClosed;
     void Update()
     {
         bool allPiecesInBounds = true;
@@ -34,6 +35,7 @@ public class PuzzleChecker : MonoBehaviour
             warningTape.SetActive(true);
             tapeBox.SetActive(true);
             clothesTwo.SetActive(true);
+            RedDoorClosed.SetActive(false);
         }
     }
 }
