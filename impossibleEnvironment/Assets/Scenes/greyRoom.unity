@@ -4641,7 +4641,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh114006
+  m_Name: pb_Mesh29152
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10479,8 +10479,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638367028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.118, y: 0, z: 0.009}
-  m_LocalScale: {x: 0.022156695, y: 0.022156695, z: 0.022156695}
+  m_LocalPosition: {x: -0.631, y: 0, z: 0.128}
+  m_LocalScale: {x: 0.02769489, y: 0.02769489, z: 0.02769489}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1764746951}
@@ -10810,7 +10810,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 30
       minScalar: 1
       maxCurve:
         serializedVersion: 2
