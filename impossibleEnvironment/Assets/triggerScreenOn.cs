@@ -6,7 +6,8 @@ public class triggerScreenOn : MonoBehaviour
 {
     public GameObject strangeScreen;
 
-    
+    public GameObject lightOne;
+    public GameObject lightTwo;
   
     public string triggerTag = "Player";
 
@@ -18,6 +19,8 @@ public class triggerScreenOn : MonoBehaviour
         {
             
              strangeScreen.SetActive(false);
+            lightOne.SetActive(true);
+            lightTwo.SetActive(true);
         }
     }
     
