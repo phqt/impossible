@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 723391d219a2b47aca90974ce9090bf0, type: 2}
+  m_Texture: {fileID: 8400000, guid: f3e3dae3372954053882f601fb4f0ef4, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -221,11 +221,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269461244}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: aabb3a708714cf24ebd3f45e6a904dcc, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 62605112bcbf648b290ddf7e7f8910d6, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 723391d219a2b47aca90974ce9090bf0, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: f3e3dae3372954053882f601fb4f0ef4, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
@@ -461,8 +461,8 @@ Camera:
   m_GameObject: {fileID: 467426549}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
