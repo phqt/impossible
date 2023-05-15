@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class toBent : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class toBent : MonoBehaviour
     public GameObject bentPost;
     public GameObject bentPlayer;
     public string triggerTag = "Player";
+    public GameObject canvasUI;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -20,6 +22,7 @@ public class toBent : MonoBehaviour
             bentCam.SetActive(true);
             bentPost.SetActive(true);
             bentPlayer.SetActive(true);
+            canvasUI.SetActive(true);
         }
     }
 }
