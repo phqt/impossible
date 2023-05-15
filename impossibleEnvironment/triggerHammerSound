@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class triggerHammerSound : MonoBehaviour
+{
+    public AudioSource hammerSound
+    public string triggerTag = "Player";
+
+    void OnTriggerEnter(Collider other)
+    {
+         if (other.CompareTag(triggerTag)&&(Input.GetKey(KeyCode.E)))
+        {
+           footstepsSound.enabled = true;
+        }
+        else
+        {
+            footstepsSound.enabled = false;
+        }
+    }
+}

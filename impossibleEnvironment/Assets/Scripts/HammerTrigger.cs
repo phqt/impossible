@@ -12,11 +12,11 @@ public class HammerTrigger : MonoBehaviour
     {
         if (other.CompareTag(triggerTag) && (Input.GetKey(KeyCode.E)))
         {
-            hammerSound.enabled = true;
+            hammerSound.Play();
         }
         else
         {
-            hammerSound.enabled = false;
+            hammerSound.Stop();
         }
     }
 }
