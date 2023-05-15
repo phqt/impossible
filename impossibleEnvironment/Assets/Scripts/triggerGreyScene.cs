@@ -16,7 +16,7 @@ public class triggerGreyScene : MonoBehaviour
         if (other.CompareTag(triggerTag))
         {
             // Load the next scene
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene("greyRoom");
         }
     }
 }

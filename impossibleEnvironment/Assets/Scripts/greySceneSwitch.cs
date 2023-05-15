@@ -16,6 +16,6 @@ public class greySceneSwitch : MonoBehaviour
         //if (other.CompareTag(triggerTag))
         //{
             // Load the next scene
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("greyCutScene");
         }
     }

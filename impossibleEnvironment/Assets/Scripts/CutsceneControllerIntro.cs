@@ -1,14 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
-public class CutsceneController : MonoBehaviour
+public class CutsceneControllerIntro : MonoBehaviour
 {
-    // The name of the scene to switch to
-    //public string downRoom;
-
-    // The duration of the cutscene in seconds
-    public float cutsceneDuration = 10f;
+    public float cutsceneDuration = 24f;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +20,6 @@ public class CutsceneController : MonoBehaviour
         yield return new WaitForSeconds(cutsceneDuration);
 
         // Load the next scene
-        SceneManager.LoadScene("downRoom");
+        SceneManager.LoadScene("SampleScene");
     }
 }

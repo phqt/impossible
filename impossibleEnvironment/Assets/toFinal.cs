@@ -15,7 +15,7 @@ public class toFinal : MonoBehaviour
         if (other.CompareTag(triggerTag))
         {
             // Load the next scene
-            SceneManager.LoadScene(7);
+            SceneManager.LoadScene("FinalRoom");
         }
     }
 }
