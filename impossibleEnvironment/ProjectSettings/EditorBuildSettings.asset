@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalRoom.unity
     guid: e0e1fe1b996f73347bca7f274469ae11
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 631f0061722afea4f8456132bb8d1cc6
   m_configObjects: {}

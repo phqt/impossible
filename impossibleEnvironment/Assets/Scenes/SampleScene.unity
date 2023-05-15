@@ -7136,6 +7136,7 @@ MonoBehaviour:
   compSound: {fileID: 1423792367}
   lightOne: {fileID: 1468064453}
   lightTwo: {fileID: 1609422321}
+  thisTrigger: {fileID: 341100911}
   triggerTag: Player
 --- !u!65 &341100913
 BoxCollider:

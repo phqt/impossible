@@ -10,6 +10,8 @@ public class triggerScreenOn : MonoBehaviour
     public AudioSource compSound;
     public GameObject lightOne;
     public GameObject lightTwo;
+
+    public GameObject thisTrigger;
   
     public string triggerTag = "Player";
 
@@ -29,6 +31,7 @@ public class triggerScreenOn : MonoBehaviour
             lightTwo.SetActive(true);
             bgmSound.Stop();
             compSound.Play();
+            thisTrigger.SetActive(false);
 
         }
     }
